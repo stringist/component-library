@@ -1,0 +1,32 @@
+body {
+  padding: 0 10%;
+}
+
+.badge-card {
+  border: solid 1px #0051f4;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 5dvw;
+}
+
+.badge-card h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.badge-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.badge-wrapper h3 {
+  text-align: left;
+  flex-grow: 1;
+}
